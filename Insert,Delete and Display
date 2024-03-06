@@ -131,4 +131,6 @@ break;
  {
  }
  }
- printf("\n\n%d", b[i])
+ printf("\n\n%d", b[i]);
+}
+}
