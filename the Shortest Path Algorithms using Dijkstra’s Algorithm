@@ -39,7 +39,6 @@ distance[i]=cost[startnode][i];
  while(count<n-1)
  {
  mindistance=INFINITY;
- //nextnode gives the node at minimum distance
  for(i=0;i<n;i++)
  if(distance[i]<mindistance&&!visited[i])
  {
